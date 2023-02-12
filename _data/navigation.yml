@@ -3,7 +3,7 @@
 - title: News
   url: /news
 - title: Member
-  url: /member/members.md
+  url: /member/members
 - title: Research
   url: /research
   sublinks:
