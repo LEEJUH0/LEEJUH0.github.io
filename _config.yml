@@ -59,6 +59,8 @@ nav:
     url:            "/"
   - name:           "People"
     url:            "/people"
+  - name:           "Member"
+    url:            "/member/members.md"
   - name:           "Research"
     url:            "/research"
   - name:           "Publications"
