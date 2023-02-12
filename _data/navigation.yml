@@ -2,6 +2,8 @@
   url: /people
 - title: News
   url: /news
+- title: Member
+  url: /member/members.md
 - title: Research
   url: /research
   sublinks:
