@@ -1,9 +1,7 @@
-- title: People
-  url: /people
-- title: News
-  url: /news
 - title: Member
   url: /member/members
+- title: News
+  url: /news
 - title: Research
   url: /research
   sublinks:
@@ -24,3 +22,5 @@
 #   url: /seminar
 # - title: Tags
 #   url: /tags
+# - title: People
+#  url: /people
