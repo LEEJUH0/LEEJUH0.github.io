@@ -1,0 +1,83 @@
+---
+layout: page
+title: People
+---
+
+<div clsas="members">
+  {% for job in site.data.job %}
+  {% assign members = site.authors | where: 'job', job %}
+  <h2 class="members-job">
+    {{ job | capitalize }}
+    {% if job != 'professor' and job != 'alumni' %}
+    students
+    {% endif %}
+  </h2>
+
+  {% assign sorted = members | sort: 'order' %}
+  {% assign img_class = 'members-img' %}
+  {% assign ul_class = 'members-list' %}
+
+  {% if job == 'professor' %}
+  {% assign img_class = 'members-img-professor' %}
+  {% endif %}
+
+  {% if job == 'alumni' %}
+  {% assign ul_class = 'members-list-alumni' %}
+  {% endif %}
+
+  <ul class="{{ ul_class }}">
+    {% for member in sorted %}
+
+    {% assign program_name = nil %}
+    {% if member.program == 'phd' %}
+    {% assign program_name = 'PhD student' %}
+    {% elsif member.program == 'ms/phd' %}
+    {% assign program_name = 'MS/PhD student' %}
+    {% elsif member.program == 'ms' %}
+    {% assign program_name = 'MS student' %}
+    {% elsif member.program == 'bs/ms' %}
+    {% assign program_name = 'BS/MS student' %}
+    {% elsif member.program == 'bs' %}
+    {% assign program_name = 'BS student' %}
+    {% endif %}
+
+    {% if member.job != 'alumni' %}
+    <li class="members-info">
+      <a class="flex" href="/authors/{{ member.name }}">
+        {% if img_class == 'members-img' %}
+        <div class="members-img-container">
+          {% endif %}
+          <img class="flex {{ img_class }}" src="{{ member.photo }}" alt="photo" />
+          {% if img_class == 'members-img' %}
+        </div>
+        {% endif %}
+        <div class="flex flex-direction-column members-info-right">
+          <div class="flex members-info-name">
+            {{ member.name }}
+          </div>
+          <div class="flex members-info-desc">
+            {{ member.position }}
+          </div>
+          <div class="flex members-info-desc">
+            {{ member.email }}
+          </div>
+          <div class="flex members-info-desc">
+            {{ member.office }}
+          </div>
+          <div class="flex members-info-desc">
+            {{ member.phone }}
+          </div>
+          <div class="flex members-info-desc">
+            {{ program_name }}
+          </div>
+        </div>
+      </a>
+    </li>
+    {% else %}
+    <li class="members-info-alumni">
+      {{ member.name }}
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% endfor %}
