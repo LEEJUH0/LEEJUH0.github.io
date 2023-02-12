@@ -3,21 +3,19 @@ layout: page
 title: Contact
 permalink: /contact/contact/
 ---
-수정시간 : 0211 0308
-
-### Address
+#### Address
 
 Room 812, Bldg. 11, 2 Gyeongsang National University 2 Tongyeonghaean-ro, Tongyeong-si, Gyeongsangnam-do, 53064, Republic of Korea
 
-### E-Mail
+#### E-Mail
 
 jin.kim@gnu.ac.kr
 
-### Phone
+#### Phone
 
 +82-55-772-9174
 
-### Map
+#### Map
 
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
