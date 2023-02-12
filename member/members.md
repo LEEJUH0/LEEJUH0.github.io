@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Members"
-permalink: /modify/members/
+permalink: /member/members/
 ---
 
 ***
