@@ -3,14 +3,14 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "DIAL Lab"
+name:               "Cyber Safety Lab"
 
 author:
   # facebook:         your-id
   # youtubeUser:      your-id
   # youtubeChannel:   your-id
   # twitter:          your-id
-  github:           diallab
+  github:           CSLab
   # stackoverflow:    your-id
   # quora:            your-id
   # linkedin:         your-id
@@ -20,11 +20,11 @@ author:
   # reddit:           your-id
   # medium:           your-id
   # tumblr:           your-id
-  email:            kdj2614@naver.com
+  #email:            kdj2614@naver.com
 
 copyright:
-  year:             2019
-  name:             Daejin Kim, Jiwoo Kim
+  year:             2023
+  name:             Cyber Safety Lab
 
 # Google-analytics
 google-analytics:
