@@ -32,7 +32,7 @@ jin.kim@gnu.ac.kr
 	new daum.roughmap.Lander({
 		"timestamp" : "1676017975498",
 		"key" : "2dpm7",
-		"mapWidth" : "1055",
+		"mapWidth" : "1120",
 		"mapHeight" : "400"
 	}).render();
 </script>
