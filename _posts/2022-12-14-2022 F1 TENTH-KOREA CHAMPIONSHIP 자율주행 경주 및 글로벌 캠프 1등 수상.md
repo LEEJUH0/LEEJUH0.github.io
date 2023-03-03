@@ -1,5 +1,5 @@
 ---
-title: 2022 F1 TENTH-KOREA CHAMPIONSHIP 자율주행 경주 및 글로벌 캠프
+title: 2022 F1 TENTH-KOREA CHAMPIONSHIP 자율주행 경주 및 글로벌 캠프 1등 수상
 layout: post
 date: '2022-12-14 12:00:00'
 categories:
