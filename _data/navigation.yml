@@ -5,16 +5,16 @@
 - title: Research
   url: /research
   sublinks:
-    - title: Research Areas
+    - title: Research
       url: /research
-    - title: Projects
+    - title: Project
       url: /research/projects.html
-- title: Publications
+- title: Publication
   url: /publication
   sublinks:
-    - title: Conferences
+    - title: Conference
       url: /publication/publication_conferences.html
-    - title: Journals
+    - title: Journal
       url: /publication
 - title: Gallery
   url: /gallery/gallery
