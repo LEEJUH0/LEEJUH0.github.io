@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: Publication
 permalink: /publication/index.html
 ---
 
@@ -9,7 +9,7 @@ permalink: /publication/index.html
 <div class="publication">
   <div class="publication-list">
     <div class="section-container">
-      <h2 class="section">International Journals</h2>
+      <h2 class="section">International Journal</h2>
       {% if site.categories.journal_international %}
       {% assign grouped = site.categories.journal_international | sort: "date"
         | reverse | group_by_exp: "p", "p.date | date: '%Y' | to_integer" %}
@@ -81,7 +81,7 @@ permalink: /publication/index.html
     </div>
 
     <div class="section-container">
-      <h2 class="section">Domestic Journals</h2>
+      <h2 class="section">Domestic Journal</h2>
       {% if site.categories.journal_domestic %}
       {% assign grouped = site.categories.journal_domestic | sort: "date"
         | reverse | group_by_exp: "p", "p.date | date: '%Y' | to_integer" %}
