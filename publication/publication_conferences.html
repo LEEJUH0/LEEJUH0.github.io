@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: Publication
 permalink: /publication/publication_conferences.html
 ---
 
@@ -11,7 +11,7 @@ permalink: /publication/publication_conferences.html
 <div class="publication">
   <div class="publication-list">
     <div class="section-container">
-      <h2 class="section">International Conferences</h2>
+      <h2 class="section">International Conference</h2>
       {% if site.categories.conference_international %}
       {% assign grouped = site.categories.conference_international | sort: "date"
         | reverse | group_by_exp: "p", "p.date | date: '%Y' | to_integer" %}
@@ -82,7 +82,7 @@ permalink: /publication/publication_conferences.html
       {% endif %}
     </div>
     <br>
-    <h2 class="section">Domestic Conferences</h2>
+    <h2 class="section">Domestic Conference</h2>
     {% if site.categories.conference_domestic %}
     {% assign grouped = site.categories.conference_domestic | sort: "date"
       | reverse | group_by_exp: "p", "p.date | date: '%Y' | to_integer" %}
