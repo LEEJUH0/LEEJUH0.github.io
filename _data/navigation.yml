@@ -1,5 +1,14 @@
 - title: Member
   url: /member/members
+- title: Member_test
+  url: /member_test
+  sublinks:
+    - title: Professor
+      url: /member_test/professor.html
+    - title: Students
+      url: /member_test/students.html
+    - title: Alumni
+      url: /member_test/alumni.html
 - title: News
   url: /news
 - title: Research
@@ -26,4 +35,3 @@
 #   url: /tags
 # - title: People
 #  url: /people
-
